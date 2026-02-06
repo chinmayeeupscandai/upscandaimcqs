@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UPSC and AI</title>
 
+  <!-- PWA essentials -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="logo-192.png">
+  <meta name="theme-color" content="#007ea7">
+
   <style>
     body {
       margin: 0;
@@ -87,5 +92,14 @@
     <a class="subject" href="https://chinmayeeupscandai.github.io/modernhistorymcqs/">Modern History</a>
     <a class="subject" href="https://chinmayeeupscandai.github.io/amac/">AMAC</a>
   </div>
+
+  <!-- Service worker registration -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js");
+      });
+    }
+  </script>
 </body>
 </html>
