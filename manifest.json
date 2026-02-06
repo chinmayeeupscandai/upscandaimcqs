@@ -1,0 +1,21 @@
+{
+  "name": "AI MCQs",
+  "short_name": "AI MCQs",
+  "description": "AI-powered UPSC Prelims practice trained on PYQs",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007ea7",
+  "icons": [
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
